@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_description_alls",
+  "info": {
+    "name": "description_all",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "description_ua": {
+      "type": "richtext"
+    },
+    "description_pl": {
+      "type": "richtext"
+    },
+    "description_en": {
+      "type": "richtext"
+    }
+  }
+}

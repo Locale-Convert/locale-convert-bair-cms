@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accessories",
+  "info": {
+    "name": "Accessories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "url": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "mainImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "colorSlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.color-sider"
+    },
+    "metaDescription": {
+      "type": "richtext"
+    },
+    "metaTitle": {
+      "type": "string"
+    },
+    "oldPrice": {
+      "type": "string"
+    },
+    "videoSlider": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "videoUrl": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.video-urls"
+    },
+    "priority": {
+      "type": "biginteger"
+    },
+    "mainImg": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.promo"
+    },
+    "description_PL": {
+      "type": "richtext"
+    },
+    "description_EN": {
+      "type": "richtext"
+    },
+    "description_all": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.description-all"
+    }
+  }
+}

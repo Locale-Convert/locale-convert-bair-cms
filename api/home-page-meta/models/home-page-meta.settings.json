@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_metas",
+  "info": {
+    "name": "Home Page Meta"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "richtext"
+    }
+  }
+}
