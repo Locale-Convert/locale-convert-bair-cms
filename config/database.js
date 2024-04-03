@@ -4,11 +4,11 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', 'cluster0.oag60ic.mongodb.net'),
+        host: env('DATABASE_HOST', 'cluster0.fabifjr.mongodb.net'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'converty-bair'),
-        username: env('DATABASE_USERNAME', 'admin'),
+        database: env('DATABASE_NAME', 'sample_mflix'),
+        username: env('DATABASE_USERNAME', 'localeconvert'),
         password: env('DATABASE_PASSWORD', 'admin'),
       },
       options: {
