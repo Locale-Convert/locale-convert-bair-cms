@@ -83,6 +83,27 @@
       "type": "component",
       "repeatable": false,
       "component": "product.description-all"
+    },
+    "stickerNew": {
+      "type": "boolean"
+    },
+    "stickerSale": {
+      "type": "boolean"
+    },
+    "stickerBlackFriday": {
+      "type": "boolean"
+    },
+    "stickerBlackFridayTitle": {
+      "type": "string"
+    },
+    "stickerSaleTitle": {
+      "type": "string"
+    },
+    "stickerNewTitle": {
+      "type": "string"
+    },
+    "isPriceFrom": {
+      "type": "boolean"
     }
   }
 }
