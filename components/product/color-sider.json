@@ -105,6 +105,21 @@
       "type": "component",
       "repeatable": false,
       "component": "product.rich-description-text-layer-all"
+    },
+    "colorPrice": {
+      "type": "string"
+    },
+    "colorOldPrice": {
+      "type": "string"
+    },
+    "isSale": {
+      "type": "boolean"
+    },
+    "coloStickerSaleTitle": {
+      "type": "string"
+    },
+    "isSaleTitle": {
+      "type": "string"
     }
   }
 }

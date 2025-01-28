@@ -2,12 +2,11 @@
   "collectionName": "components_product_description_alls",
   "info": {
     "name": "description_all",
-    "icon": "align-left",
-    "description": ""
+    "icon": "align-left"
   },
   "options": {},
   "attributes": {
-    "description_ro": {
+    "description_ua": {
       "type": "richtext"
     },
     "description_pl": {
